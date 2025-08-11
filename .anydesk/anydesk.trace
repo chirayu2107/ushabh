@@ -1,0 +1,316 @@
+ * * * * * * * * * * * * * * * * * *
+   info 2023-09-25 08:49:04.992      front   main  57796 227116                                  main - * AnyDesk MAC Startup *
+   info 2023-09-25 08:49:04.993      front   main  57796 227116                                  main - * Version 6.4.0 (mac_release_6.4.0 908ed7111cfab7aa6e8d3fd16a11f84a21687af7)
+   info 2023-09-25 08:49:04.993      front   main  57796 227116                                  main - * Build 20211207165110
+   info 2023-09-25 08:49:04.993      front   main  57796 227116                                  main - * Prefix ad
+   info 2023-09-25 08:49:05.006      front   main  57796 227116                                  main - * OS Version 13.4.1 (c) (Build 22F770820d)
+   info 2023-09-25 08:49:05.007      front   main  57796 227116                                  main - * Launch path /Applications/AnyDesk.app
+   info 2023-09-25 08:49:05.007      front   main  57796 227116                                  main - * Copyright (C) AnyDesk Software GmbH *
+   info 2023-09-25 08:49:05.007      front   main  57796 227116                                  main - 
+   info 2023-09-25 08:49:05.007      front   main  57796 227116                                  main - ppid: 1 uid: 501
+   info 2023-09-25 08:49:05.007      front   main  57796 227116                                  main - process maxfiles 256 : -1
+   info 2023-09-25 08:49:05.007      front   main  57796 227116                                  main - raising RLIMIT_NOFILE to 10240
+   info 2023-09-25 08:49:05.007      front   main  57796 227116                         impl_selector - using sse2
+  error 2023-09-25 08:49:05.166      front   main  57796 227116         mac_app.helper_tool_interface - Global files not found.
+   info 2023-09-25 08:49:05.168      front   main  57796 227116                   fiber.ipc_namespace - Global: no
+   info 2023-09-25 08:49:05.168      front   main  57796 227116                           AppDelegate - Starting a local service.
+warning 2023-09-25 08:49:05.169      front   main  57796 227116                   fiber.ipc_namespace - Local namespace without service.
+ * * * * * * * * * * * * * * * * * *
+   info 2023-09-25 08:49:05.197       lsvc   main  57800 227135                                  main - * AnyDesk MAC Startup *
+   info 2023-09-25 08:49:05.197       lsvc   main  57800 227135                                  main - * Version 6.4.0 (mac_release_6.4.0 908ed7111cfab7aa6e8d3fd16a11f84a21687af7)
+   info 2023-09-25 08:49:05.197       lsvc   main  57800 227135                                  main - * Build 20211207165110
+   info 2023-09-25 08:49:05.197       lsvc   main  57800 227135                                  main - * Prefix ad
+   info 2023-09-25 08:49:05.204       lsvc   main  57800 227135                                  main - * OS Version 13.4.1 (c) (Build 22F770820d)
+   info 2023-09-25 08:49:05.204       lsvc   main  57800 227135                                  main - * Launch path /Applications/AnyDesk.app
+   info 2023-09-25 08:49:05.204       lsvc   main  57800 227135                                  main - * Copyright (C) AnyDesk Software GmbH *
+   info 2023-09-25 08:49:05.204       lsvc   main  57800 227135                                  main - 
+   info 2023-09-25 08:49:05.204       lsvc   main  57800 227135                                  main - ppid: 57796 uid: 501
+   info 2023-09-25 08:49:05.204       lsvc   main  57800 227135                                  main - process maxfiles 10240 : -1
+   info 2023-09-25 08:49:05.204       lsvc   main  57800 227135                         impl_selector - using sse2
+   info 2023-09-25 08:49:05.206       lsvc   main  57800 227135                       app.common_path - initialized user = /Users/chirayumaru/.anydesk, system = /Users/chirayumaru/.anydesk
+   info 2023-09-25 08:49:05.208       lsvc   main  57800 227135                      main.run_service - Starting local service.
+   info 2023-09-25 08:49:05.209       lsvc   main  57800 227135          base.data.config_application - Adding GPO defaults layer.
+   info 2023-09-25 08:49:05.209       lsvc   main  57800 227135          base.data.config_application - Adding GPO overrides layer.
+   info 2023-09-25 08:49:05.210       lsvc   main  57800 227135                       fiber.scheduler - Spawning root fiber 1.
+   info 2023-09-25 08:49:05.210       lsvc   main  57800 227135                       fiber.scheduler - Scheduler started.
+   info 2023-09-25 08:49:05.210       lsvc   main  57800 227135    1                      app.service - Opening the IPC namespace.
+   info 2023-09-25 08:49:05.211       lsvc   main  57800 227135    1              fiber.ipc_namespace - Global: no
+   info 2023-09-25 08:49:05.211       lsvc   main  57800 227135    1                      app.service - Logging into the IPC namespace.
+   info 2023-09-25 08:49:05.211       lsvc   main  57800 227135    1                      app.service - Starting to supervise the IPC namespace.
+   info 2023-09-25 08:49:05.212       lsvc   main  57800 227135    1                      app.service - Starting the connector.
+   info 2023-09-25 08:49:05.212       lsvc   main  57800 227135    1            anynet.connection_mgr - Generating a new certificate and key.
+   info 2023-09-25 08:49:05.270      front   main  57796 227116                       app.common_path - initialized user = /Users/chirayumaru/.anydesk, system = /Users/chirayumaru/.anydesk
+   info 2023-09-25 08:49:05.271      front   main  57796 227116                           AppDelegate - Starting frontend (6).
+   info 2023-09-25 08:49:05.273      front   main  57796 227116          base.data.config_application - Adding GPO defaults layer.
+   info 2023-09-25 08:49:05.273      front   main  57796 227116          base.data.config_application - Adding GPO overrides layer.
+   info 2023-09-25 08:49:05.273      front   main  57796 227116                           gui.gui_app - DPI scaling: 2.00 / 2.00
+   info 2023-09-25 08:49:05.273      front   main  57796 227116                           gui.gui_app - Using high-resolution bitmaps.
+   info 2023-09-25 08:49:05.277      front   main  57796 227116                       base.signal.hub - 4 threads.
+   info 2023-09-25 08:49:05.313       lsvc   main  57800 227135    1            anynet.connection_mgr - 2 CA certificate(s) loaded.
+   info 2023-09-25 08:49:05.313       lsvc   main  57800 227135    1                  fiber.scheduler - Spawning root fiber 2.
+   info 2023-09-25 08:49:05.314       lsvc   main  57800 227135    1                  fiber.scheduler - Spawning root fiber 3.
+   info 2023-09-25 08:49:05.314       lsvc   main  57800 227135    1                  fiber.scheduler - Spawning root fiber 4.
+   info 2023-09-25 08:49:05.314       lsvc   main  57800 227135    1                      app.service - Setting up the listen sockets.
+   info 2023-09-25 08:49:05.315       lsvc   main  57800 227135    1                  fiber.scheduler - Spawning root fiber 5.
+   info 2023-09-25 08:49:05.315       lsvc   main  57800 227135    1                      app.service - Service startup completed.
+   info 2023-09-25 08:49:05.316       lsvc   main  57800 227135    1            app.discovery_manager - Updated Discovery settings: repeat interval (1000), repeat limit (10), buffer interval (5000), port range (3)
+   info 2023-09-25 08:49:05.316       lsvc   main  57800 227135    1            app.discovery_manager - Starting Discovery.
+   info 2023-09-25 08:49:05.318       lsvc   main  57800 227135    1                   ad.wol_service - Starting WOL service.
+   info 2023-09-25 08:49:05.318       lsvc   main  57800 227135    1                  fiber.scheduler - Spawning child fiber 6 (parent 1).
+   info 2023-09-25 08:49:05.318       lsvc   main  57800 227135    1                  fiber.scheduler - Spawning child fiber 7 (parent 1).
+   info 2023-09-25 08:49:05.318       lsvc   main  57800 227135    1                      app.service - Waiting for messages.
+   info 2023-09-25 08:49:05.318       lsvc   main  57800 227135    2            anynet.connection_mgr - Starting connection manager fiber.
+   info 2023-09-25 08:49:05.319       lsvc   main  57800 227135    3           anynet.main_relay_conn - Starting main relay connection.
+   info 2023-09-25 08:49:05.319       lsvc   main  57800 227135    3                  fiber.scheduler - Spawning child fiber 8 (parent 3).
+   info 2023-09-25 08:49:05.320       lsvc   main  57800 227135    4              anynet.tcp_acceptor - Listening on TCP port 7070.
+   info 2023-09-25 08:49:05.320       lsvc   main  57800 227135    5                anynet.any_socket - Listen fiber started.
+   info 2023-09-25 08:49:05.320       lsvc   main  57800 227135    6                      anynet.conn - Request before connect. Queueing.
+   info 2023-09-25 08:49:05.321       lsvc   main  57800 227135    8           anynet.relay_connector - Relay connector started.
+   info 2023-09-25 08:49:05.323       lsvc   main  57800 227135    8           anynet.relay_connector - Connecting to relay boot-01.net.anydesk.com (1/2)
+   info 2023-09-25 08:49:05.752      front   timr  57796 227160          base.signal.local.timer_impl - Initialized master timer.
+   info 2023-09-25 08:49:05.753      front   ctrl  57796 227161                      mac_app.frontend - Frontend startup.
+   info 2023-09-25 08:49:05.753      front   ctrl  57796 227161                      mac_app.frontend - Logging the frontend in.
+   info 2023-09-25 08:49:05.754       lsvc   main  57800 227135    1                      app.service - Process start: 57796 (frontend).
+   info 2023-09-25 08:49:05.754       lsvc   main  57800 227135    1           anynet.relay_connector - Short timeouts enabled.
+   info 2023-09-25 08:49:05.781       lsvc   main  57800 227135    1                      app.service - New IPC connection.
+   info 2023-09-25 08:49:05.781       lsvc   main  57800 227135    1                  fiber.scheduler - Spawning child fiber 9 (parent 1).
+   info 2023-09-25 08:49:05.781       lsvc   main  57800 227135    9                      app.service - Creating an IPC accept socket.
+   info 2023-09-25 08:49:05.782       lsvc   main  57800 227135    9                      app.service - Connected to 57796 (frontend).
+   info 2023-09-25 08:49:05.782       lsvc   main  57800 227135    9                      app.service - Process login detected.
+   info 2023-09-25 08:49:05.865      front   ctrl  57796 227161                     base.monitor_info - 1 active monitor(s) found.
+  error 2023-09-25 08:49:06.025      front   main  57796 227116         mac_app.helper_tool_interface - Global files not found.
+   info 2023-09-25 08:49:06.025      front   main  57796 227116               gui.request_permissions - Accessibility permission: 1
+   info 2023-09-25 08:49:06.025      front   main  57796 227116               gui.request_permissions - Screen Recording permission: 1
+   info 2023-09-25 08:49:06.829       lsvc   main  57800 227135    8           anynet.relay_connector - Using IPv4: 57.128.101.75
+   info 2023-09-25 08:49:06.829       lsvc   main  57800 227135    8           anynet.relay_connector - Using IPv6: 64:ff9b:0:0:0:0:5cdf:58e8
+   info 2023-09-25 08:49:07.012       lsvc   main  57800 227135    8                  fiber.scheduler - Spawning root fiber 10.
+   info 2023-09-25 08:49:07.378       lsvc   main  57800 227135    8           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2023-09-25 08:49:07.378       lsvc   main  57800 227135    8                  fiber.scheduler - Spawning root fiber 11.
+   info 2023-09-25 08:49:07.405       lsvc   main  57800 227135    8                        handshake - Using protocol version 3.
+   info 2023-09-25 08:49:07.462      front   main  57796 227116                           AppDelegate - Nothing detected (0).
+   info 2023-09-25 08:49:07.481      front   main  57796 227116                      mac_app.frontend - Terminating the service
+   info 2023-09-25 08:49:07.481      front   ctrl  57796 227161                      mac_app.frontend - Frontend shutdown.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    1                      app.service - Process stop: 57796.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    1           anynet.relay_connector - Short timeouts disabled.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    9                      app.service - Terminating the service.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    9                  fiber.scheduler - Quitting scheduler (0).
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135                       fiber.scheduler - Quitting all fibers.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    1                      app.service - Service shutdown.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135                       fiber.scheduler - Fiber 1 requested quit of fiber 6.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    2            anynet.connection_mgr - Connection manager fiber quit.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135                       fiber.scheduler - Fiber 2 terminated.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    3           anynet.main_relay_conn - Connect failed. Result: result_quit
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135                       fiber.scheduler - Fiber 3 requested quit of fiber 8.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    4              anynet.tcp_acceptor - Received quit.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135                       fiber.scheduler - Fiber 4 terminated.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135    5                anynet.any_socket - Listen fiber stopped.
+   info 2023-09-25 08:49:07.497       lsvc   main  57800 227135                       fiber.scheduler - Fiber 5 terminated.
+warning 2023-09-25 08:49:07.497       lsvc   main  57800 227135    6                      anynet.conn - Quit during request.
+  error 2023-09-25 08:49:07.498       lsvc   main  57800 227135    6                           êÅÈXå - Could not update WOL information about this machine. WOL might not work. (result_quit)
+   info 2023-09-25 08:49:07.498       lsvc   main  57800 227135                       fiber.scheduler - Fiber 8 requested quit of fiber 11.
+   info 2023-09-25 08:49:07.498       lsvc   main  57800 227135   10                      fiber.fiber - Received quit.
+   info 2023-09-25 08:49:07.498       lsvc   main  57800 227135                       fiber.scheduler - Fiber 10 terminated.
+   info 2023-09-25 08:49:07.499      front   ctrl  57796 227161                   anymessage.provider - Message data cleanup requested.
+   info 2023-09-25 08:49:07.499       lsvc   main  57800 227135   11                      fiber.fiber - Received quit.
+   info 2023-09-25 08:49:07.499       lsvc   main  57800 227135                       fiber.scheduler - Fiber 11 terminated.
+   info 2023-09-25 08:49:07.499       lsvc   main  57800 227135    8                      fiber.fiber - Received quit.
+   info 2023-09-25 08:49:07.499       lsvc   main  57800 227135                       fiber.scheduler - Fiber 8 terminated.
+   info 2023-09-25 08:49:07.499       lsvc   main  57800 227135                       fiber.scheduler - Fiber 3 terminated.
+  error 2023-09-25 08:49:07.499       lsvc   main  57800 227135                       fiber.scheduler - Some fibers didn't terminate.
+   info 2023-09-25 08:49:07.499       lsvc   main  57800 227135                       fiber.scheduler - Scheduler stopped (0).
+   info 2023-09-25 08:49:07.500       lsvc   main  57800 227135                       fiber.scheduler - 3 fiber(s) didn't quit. 0 fiber(s) were spawned during shutdown.
+warning 2023-09-25 08:49:07.518       lsvc   main  57800 227135                           fiber.fiber - Fiber was destroyed before it has terminated.
+   info 2023-09-25 08:49:07.518       lsvc   main  57800 227135                      main.run_service - Exiting
+ * * * * * * * * * * * * * * * * * *
+   info 2024-08-12 04:12:15.255      front   main  16760 4057746                                  main - * AnyDesk MAC Startup *
+   info 2024-08-12 04:12:15.256      front   main  16760 4057746                                  main - * Version 6.4.0 (mac_release_6.4.0 908ed7111cfab7aa6e8d3fd16a11f84a21687af7)
+   info 2024-08-12 04:12:15.256      front   main  16760 4057746                                  main - * Build 20211207165110
+   info 2024-08-12 04:12:15.256      front   main  16760 4057746                                  main - * Prefix ad
+   info 2024-08-12 04:12:15.261      front   main  16760 4057746                                  main - * OS Version 14.5 (Build 23F79)
+   info 2024-08-12 04:12:15.261      front   main  16760 4057746                                  main - * Launch path /Applications/AnyDesk.app
+   info 2024-08-12 04:12:15.262      front   main  16760 4057746                                  main - * Copyright (C) AnyDesk Software GmbH *
+   info 2024-08-12 04:12:15.262      front   main  16760 4057746                                  main - 
+   info 2024-08-12 04:12:15.262      front   main  16760 4057746                                  main - ppid: 1 uid: 501
+   info 2024-08-12 04:12:15.262      front   main  16760 4057746                                  main - process maxfiles 256 : -1
+   info 2024-08-12 04:12:15.262      front   main  16760 4057746                                  main - raising RLIMIT_NOFILE to 10240
+   info 2024-08-12 04:12:15.262      front   main  16760 4057746                         impl_selector - using sse2
+  error 2024-08-12 04:12:15.417      front   main  16760 4057746         mac_app.helper_tool_interface - Global files not found.
+   info 2024-08-12 04:12:15.418      front   main  16760 4057746                   fiber.ipc_namespace - Global: no
+   info 2024-08-12 04:12:15.418      front   main  16760 4057746                           AppDelegate - Starting a local service.
+warning 2024-08-12 04:12:15.419      front   main  16760 4057746                   fiber.ipc_namespace - Local namespace without service.
+ * * * * * * * * * * * * * * * * * *
+   info 2024-08-12 04:12:15.458       lsvc   main  16761 4057783                                  main - * AnyDesk MAC Startup *
+   info 2024-08-12 04:12:15.458       lsvc   main  16761 4057783                                  main - * Version 6.4.0 (mac_release_6.4.0 908ed7111cfab7aa6e8d3fd16a11f84a21687af7)
+   info 2024-08-12 04:12:15.458       lsvc   main  16761 4057783                                  main - * Build 20211207165110
+   info 2024-08-12 04:12:15.458       lsvc   main  16761 4057783                                  main - * Prefix ad
+   info 2024-08-12 04:12:15.464       lsvc   main  16761 4057783                                  main - * OS Version 14.5 (Build 23F79)
+   info 2024-08-12 04:12:15.464       lsvc   main  16761 4057783                                  main - * Launch path /Applications/AnyDesk.app
+   info 2024-08-12 04:12:15.464       lsvc   main  16761 4057783                                  main - * Copyright (C) AnyDesk Software GmbH *
+   info 2024-08-12 04:12:15.464       lsvc   main  16761 4057783                                  main - 
+   info 2024-08-12 04:12:15.464       lsvc   main  16761 4057783                                  main - ppid: 16760 uid: 501
+   info 2024-08-12 04:12:15.464       lsvc   main  16761 4057783                                  main - process maxfiles 10240 : -1
+   info 2024-08-12 04:12:15.464       lsvc   main  16761 4057783                         impl_selector - using sse2
+   info 2024-08-12 04:12:15.466       lsvc   main  16761 4057783                       app.common_path - initialized user = /Users/chirayumaru/.anydesk, system = /Users/chirayumaru/.anydesk
+   info 2024-08-12 04:12:15.467       lsvc   main  16761 4057783                      main.run_service - Starting local service.
+   info 2024-08-12 04:12:15.468       lsvc   main  16761 4057783          base.data.config_application - Adding GPO defaults layer.
+   info 2024-08-12 04:12:15.468       lsvc   main  16761 4057783          base.data.config_application - Adding GPO overrides layer.
+   info 2024-08-12 04:12:15.471       lsvc   main  16761 4057783                       fiber.scheduler - Spawning root fiber 1.
+   info 2024-08-12 04:12:15.471       lsvc   main  16761 4057783                       fiber.scheduler - Scheduler started.
+   info 2024-08-12 04:12:15.471       lsvc   main  16761 4057783    1                      app.service - Opening the IPC namespace.
+   info 2024-08-12 04:12:15.472       lsvc   main  16761 4057783    1              fiber.ipc_namespace - Global: no
+   info 2024-08-12 04:12:15.472       lsvc   main  16761 4057783    1                      app.service - Logging into the IPC namespace.
+   info 2024-08-12 04:12:15.473       lsvc   main  16761 4057783    1                      app.service - Starting to supervise the IPC namespace.
+   info 2024-08-12 04:12:15.473       lsvc   main  16761 4057783    1                      app.service - Starting the connector.
+   info 2024-08-12 04:12:15.473       lsvc   main  16761 4057783    1            anynet.connection_mgr - Importing certificate and key.
+   info 2024-08-12 04:12:15.475       lsvc   main  16761 4057783    1            anynet.connection_mgr - 2 CA certificate(s) loaded.
+   info 2024-08-12 04:12:15.475       lsvc   main  16761 4057783    1                  fiber.scheduler - Spawning root fiber 2.
+   info 2024-08-12 04:12:15.480       lsvc   main  16761 4057783    1                  fiber.scheduler - Spawning root fiber 3.
+   info 2024-08-12 04:12:15.480       lsvc   main  16761 4057783    1                  fiber.scheduler - Spawning root fiber 4.
+   info 2024-08-12 04:12:15.481       lsvc   main  16761 4057783    1                      app.service - Setting up the listen sockets.
+   info 2024-08-12 04:12:15.482       lsvc   main  16761 4057783    1                  fiber.scheduler - Spawning root fiber 5.
+   info 2024-08-12 04:12:15.482       lsvc   main  16761 4057783    1                      app.service - Service startup completed.
+   info 2024-08-12 04:12:15.482       lsvc   main  16761 4057783    1            app.discovery_manager - Updated Discovery settings: repeat interval (1000), repeat limit (10), buffer interval (5000), port range (3)
+   info 2024-08-12 04:12:15.482       lsvc   main  16761 4057783    1            app.discovery_manager - Starting Discovery.
+   info 2024-08-12 04:12:15.483       lsvc   main  16761 4057783    1                   ad.wol_service - Starting WOL service.
+   info 2024-08-12 04:12:15.483       lsvc   main  16761 4057783    1                  fiber.scheduler - Spawning child fiber 6 (parent 1).
+   info 2024-08-12 04:12:15.483       lsvc   main  16761 4057783    1                  fiber.scheduler - Spawning child fiber 7 (parent 1).
+   info 2024-08-12 04:12:15.483       lsvc   main  16761 4057783    1                      app.service - Waiting for messages.
+   info 2024-08-12 04:12:15.484       lsvc   main  16761 4057783    2            anynet.connection_mgr - Starting connection manager fiber.
+   info 2024-08-12 04:12:15.484       lsvc   main  16761 4057783    3           anynet.main_relay_conn - Starting main relay connection.
+   info 2024-08-12 04:12:15.484       lsvc   main  16761 4057783    3                  fiber.scheduler - Spawning child fiber 8 (parent 3).
+   info 2024-08-12 04:12:15.485       lsvc   main  16761 4057783    4              anynet.tcp_acceptor - Listening on TCP port 7070.
+   info 2024-08-12 04:12:15.485       lsvc   main  16761 4057783    5                anynet.any_socket - Listen fiber started.
+   info 2024-08-12 04:12:15.485       lsvc   main  16761 4057783    6                      anynet.conn - Request before connect. Queueing.
+   info 2024-08-12 04:12:15.486       lsvc   main  16761 4057783    8           anynet.relay_connector - Relay connector started.
+   info 2024-08-12 04:12:15.488       lsvc   main  16761 4057783    8           anynet.relay_connector - Connecting to relay boot-01.net.anydesk.com (1/2)
+   info 2024-08-12 04:12:15.522      front   main  16760 4057746                       app.common_path - initialized user = /Users/chirayumaru/.anydesk, system = /Users/chirayumaru/.anydesk
+   info 2024-08-12 04:12:15.522      front   main  16760 4057746                           AppDelegate - Starting frontend (6).
+   info 2024-08-12 04:12:15.523      front   main  16760 4057746          base.data.config_application - Adding GPO defaults layer.
+   info 2024-08-12 04:12:15.523      front   main  16760 4057746          base.data.config_application - Adding GPO overrides layer.
+   info 2024-08-12 04:12:15.524      front   main  16760 4057746                           gui.gui_app - DPI scaling: 2.00 / 2.00
+   info 2024-08-12 04:12:15.524      front   main  16760 4057746                           gui.gui_app - Using high-resolution bitmaps.
+   info 2024-08-12 04:12:15.524      front   main  16760 4057746                       base.signal.hub - 4 threads.
+   info 2024-08-12 04:12:15.655       lsvc   main  16761 4057783    8           anynet.relay_connector - Using IPv4: 92.223.88.232
+   info 2024-08-12 04:12:15.802      front   timr  16760 4057797          base.signal.local.timer_impl - Initialized master timer.
+   info 2024-08-12 04:12:15.803      front   ctrl  16760 4057798                      mac_app.frontend - Frontend startup.
+   info 2024-08-12 04:12:15.803      front   ctrl  16760 4057798                      mac_app.frontend - Logging the frontend in.
+   info 2024-08-12 04:12:15.805       lsvc   main  16761 4057783    1                      app.service - Process start: 16760 (frontend).
+   info 2024-08-12 04:12:15.805       lsvc   main  16761 4057783    1           anynet.relay_connector - Short timeouts enabled.
+   info 2024-08-12 04:12:15.814       lsvc   main  16761 4057783    8                  fiber.scheduler - Spawning root fiber 9.
+   info 2024-08-12 04:12:15.838       lsvc   main  16761 4057783    1                      app.service - New IPC connection.
+   info 2024-08-12 04:12:15.838       lsvc   main  16761 4057783    1                  fiber.scheduler - Spawning child fiber 10 (parent 1).
+   info 2024-08-12 04:12:15.838       lsvc   main  16761 4057783   10                      app.service - Creating an IPC accept socket.
+   info 2024-08-12 04:12:15.839       lsvc   main  16761 4057783   10                      app.service - Connected to 16760 (frontend).
+   info 2024-08-12 04:12:15.850       lsvc   main  16761 4057783   10                      app.service - Process login detected.
+   info 2024-08-12 04:12:15.926      front   ctrl  16760 4057798                     base.monitor_info - 1 active monitor(s) found.
+   info 2024-08-12 04:12:16.165       lsvc   main  16761 4057783    8           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2024-08-12 04:12:16.165       lsvc   main  16761 4057783    8                  fiber.scheduler - Spawning root fiber 11.
+  error 2024-08-12 04:12:16.179      front   main  16760 4057746         mac_app.helper_tool_interface - Global files not found.
+   info 2024-08-12 04:12:16.179      front   main  16760 4057746               gui.request_permissions - Accessibility permission: 1
+   info 2024-08-12 04:12:16.179      front   main  16760 4057746               gui.request_permissions - Screen Recording permission: 1
+   info 2024-08-12 04:12:16.332       lsvc   main  16761 4057783    8                        handshake - Using protocol version 3.
+   info 2024-08-12 04:12:16.577       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 8 requested quit of fiber 11.
+   info 2024-08-12 04:12:16.578       lsvc   main  16761 4057783   11                      fiber.fiber - Received quit.
+   info 2024-08-12 04:12:16.578       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 11 terminated.
+   info 2024-08-12 04:12:16.578       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 8 requested quit of fiber 9.
+   info 2024-08-12 04:12:16.578       lsvc   main  16761 4057783    9                      fiber.fiber - Received quit.
+   info 2024-08-12 04:12:16.578       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 9 terminated.
+   info 2024-08-12 04:12:16.579       lsvc   main  16761 4057783    8           anynet.relay_connector - Connection terminated: anynet_invalid_zone
+   info 2024-08-12 04:12:16.579       lsvc   main  16761 4057783    8           anynet.relay_connector - Received a new server list (10 servers)
+   info 2024-08-12 04:12:16.579       lsvc   main  16761 4057783    8           anynet.relay_connector - Connecting to relay relay-a5a6c071.net.anydesk.com (1/10)
+   info 2024-08-12 04:12:16.743       lsvc   main  16761 4057783    8           anynet.relay_connector - Using IPv4: 208.115.231.22
+   info 2024-08-12 04:12:16.902       lsvc   main  16761 4057783    8                  fiber.scheduler - Spawning root fiber 12.
+   info 2024-08-12 04:12:17.257       lsvc   main  16761 4057783    8           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2024-08-12 04:12:17.257       lsvc   main  16761 4057783    8                  fiber.scheduler - Spawning root fiber 13.
+   info 2024-08-12 04:12:17.428       lsvc   main  16761 4057783    8                        handshake - Using protocol version 3.
+   info 2024-08-12 04:12:17.732       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 8 requested quit of fiber 13.
+   info 2024-08-12 04:12:17.732       lsvc   main  16761 4057783   13                      fiber.fiber - Received quit.
+   info 2024-08-12 04:12:17.732       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 13 terminated.
+   info 2024-08-12 04:12:17.732       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 8 requested quit of fiber 12.
+   info 2024-08-12 04:12:17.732       lsvc   main  16761 4057783   12                      fiber.fiber - Received quit.
+   info 2024-08-12 04:12:17.732       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 12 terminated.
+   info 2024-08-12 04:12:17.732       lsvc   main  16761 4057783    8           anynet.relay_connector - Connection terminated: anynet_relay_full
+   info 2024-08-12 04:12:17.733       lsvc   main  16761 4057783    8           anynet.relay_connector - Received a new server list (10 servers)
+   info 2024-08-12 04:12:17.733       lsvc   main  16761 4057783    8           anynet.relay_connector - Connecting to relay relay-3d17eb18.net.anydesk.com (1/10)
+   info 2024-08-12 04:12:17.946       lsvc   main  16761 4057783    8           anynet.relay_connector - Using IPv4: 51.178.91.235
+   info 2024-08-12 04:12:18.107       lsvc   main  16761 4057783    8                  fiber.scheduler - Spawning root fiber 14.
+   info 2024-08-12 04:12:18.575       lsvc   main  16761 4057783    8           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2024-08-12 04:12:18.575       lsvc   main  16761 4057783    8                  fiber.scheduler - Spawning root fiber 15.
+   info 2024-08-12 04:12:18.740       lsvc   main  16761 4057783    8                        handshake - Using protocol version 3.
+   info 2024-08-12 04:12:19.419       lsvc   main  16761 4057783    8           anynet.relay_connector - Connection established.
+   info 2024-08-12 04:12:19.419       lsvc   main  16761 4057783    8           anynet.relay_connector - Relay connector stopped.
+   info 2024-08-12 04:12:19.419       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 8 terminated.
+   info 2024-08-12 04:12:19.422       lsvc   main  16761 4057783    3           anynet.main_relay_conn - Network ID: main
+   info 2024-08-12 04:12:19.425       lsvc   main  16761 4057783    3                anynet.relay_conn - External address: 185.177.124.221:20960.
+   info 2024-08-12 04:12:19.426       lsvc   main  16761 4057783    3           anynet.main_relay_conn - Reporting system information.
+   info 2024-08-12 04:12:19.426       lsvc   main  16761 4057783    3           anynet.main_relay_conn - Main relay ID: 3d17eb18
+   info 2024-08-12 04:12:19.526       lsvc   main  16761 4057783    3           anynet.main_relay_conn - Detected 2 new networks.
+   info 2024-08-12 04:12:19.527       lsvc   main  16761 4057783    2            anynet.connection_mgr - Main relay connection established.
+   info 2024-08-12 04:12:19.527       lsvc   main  16761 4057783    2            anynet.connection_mgr - New user data. Client-ID: 1401311136.
+   info 2024-08-12 04:12:19.599      front   wrk1  16760 4057800                   anymessage.provider - CID changed. Requesting messages update.
+   info 2024-08-12 04:12:19.599      front   wrk1  16760 4057800                   anymessage.provider - License changed. Requesting messages update.
+   info 2024-08-12 04:12:19.945       lsvc   main  16761 4057783    1                    app.discovery - Starting.
+   info 2024-08-12 04:12:19.945       lsvc   main  16761 4057783    1                  fiber.scheduler - Spawning root fiber 16.
+   info 2024-08-12 04:12:19.946       lsvc   main  16761 4057783   16                    app.discovery - Current Discovery revision: 0
+   info 2024-08-12 04:12:19.947       lsvc   main  16761 4057783   16                    app.discovery - Joined multicast group 239.255.102.18:50001.
+   info 2024-08-12 04:12:19.948       lsvc   main  16761 4057783   16                    app.discovery - Bound to port: 50001
+   info 2024-08-12 04:12:19.948       lsvc   main  16761 4057783   16                anynet.udp_socket - Multicast loop option set to 0
+   info 2024-08-12 04:12:19.954       lsvc   main  16761 4057783   16                    app.discovery - Discovery fiber started.
+   info 2024-08-12 04:18:37.000       lsvc   main  16761 4057783    2            anynet.connection_mgr - Closing main relay connection.
+   info 2024-08-12 04:18:37.001       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 2 requested quit of fiber 3.
+   info 2024-08-12 04:18:37.001       lsvc   main  16761 4057783    3           anynet.main_relay_conn - Main relay connection closed.
+   info 2024-08-12 04:18:37.001       lsvc   main  16761 4057783    3            anynet.connection_mgr - Forcing cleanup.
+   info 2024-08-12 04:18:37.001       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 3 requested quit of fiber 15.
+   info 2024-08-12 04:18:37.001       lsvc   main  16761 4057783   15                      fiber.fiber - Received quit.
+   info 2024-08-12 04:18:37.002       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 15 terminated.
+   info 2024-08-12 04:18:37.002       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 3 requested quit of fiber 14.
+   info 2024-08-12 04:18:37.002       lsvc   main  16761 4057783   14                      fiber.fiber - Received quit.
+   info 2024-08-12 04:18:37.002       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 14 terminated.
+   info 2024-08-12 04:18:37.002       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 3 terminated.
+   info 2024-08-12 04:18:37.002       lsvc   main  16761 4057783    2            anynet.connection_mgr - Main relay connection failed (result_quit).
+   info 2024-08-12 04:19:02.278       lsvc   main  16761 4057783    2            anynet.connection_mgr - Resuming main relay connection.
+   info 2024-08-12 04:19:02.279       lsvc   main  16761 4057783    2                  fiber.scheduler - Spawning root fiber 17.
+   info 2024-08-12 04:19:02.279       lsvc   main  16761 4057783   17           anynet.main_relay_conn - Starting main relay connection.
+   info 2024-08-12 04:19:02.288       lsvc   main  16761 4057783   17                  fiber.scheduler - Spawning child fiber 18 (parent 17).
+   info 2024-08-12 04:19:02.288       lsvc   main  16761 4057783   18           anynet.relay_connector - Relay connector started.
+   info 2024-08-12 04:19:02.295       lsvc   main  16761 4057783   18           anynet.relay_connector - Connecting to relay relay-3d17eb18.net.anydesk.com (1/3)
+   info 2024-08-12 04:19:02.392       lsvc   main  16761 4057783   18           anynet.relay_connector - Using IPv4: 51.178.91.235
+   info 2024-08-12 04:19:05.886      front   main  16760 4057746                           AppDelegate - Nothing detected (0).
+   info 2024-08-12 04:19:05.888      front   main  16760 4057746                      mac_app.frontend - Terminating the service
+   info 2024-08-12 04:19:05.888      front   ctrl  16760 4057798                      mac_app.frontend - Frontend shutdown.
+   info 2024-08-12 04:19:05.889       lsvc   main  16761 4057783    1                      app.service - Process stop: 16760.
+   info 2024-08-12 04:19:05.889       lsvc   main  16761 4057783    1           anynet.relay_connector - Short timeouts disabled.
+   info 2024-08-12 04:19:05.889       lsvc   main  16761 4057783   10                      app.service - Terminating the service.
+   info 2024-08-12 04:19:05.889       lsvc   main  16761 4057783   10                  fiber.scheduler - Quitting scheduler (0).
+   info 2024-08-12 04:19:05.889       lsvc   main  16761 4057783                       fiber.scheduler - Quitting all fibers.
+   info 2024-08-12 04:19:05.889       lsvc   main  16761 4057783    1                      app.service - Service shutdown.
+   info 2024-08-12 04:19:05.889       lsvc   main  16761 4057783    1                    app.discovery - Stopping.
+   info 2024-08-12 04:19:05.890       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 1 requested quit of fiber 16.
+   info 2024-08-12 04:19:05.890       lsvc   main  16761 4057783    4              anynet.tcp_acceptor - Received quit.
+   info 2024-08-12 04:19:05.890       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 4 terminated.
+   info 2024-08-12 04:19:05.890       lsvc   main  16761 4057783    5                anynet.any_socket - Listen fiber stopped.
+   info 2024-08-12 04:19:05.890       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 5 terminated.
+   info 2024-08-12 04:19:05.891       lsvc   main  16761 4057783   16                    app.discovery - Left multicast group 239.255.102.18:50001.
+   info 2024-08-12 04:19:05.891       lsvc   main  16761 4057783   16                    app.discovery - Discovery fiber stopped.
+   info 2024-08-12 04:19:05.891       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 16 terminated.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783    2            anynet.connection_mgr - Connection manager fiber quit.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 2 terminated.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783   17           anynet.main_relay_conn - Connect failed. Result: result_quit
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 17 requested quit of fiber 18.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783   18                      fiber.fiber - Received quit.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 18 terminated.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 1 requested quit of fiber 6.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 17 terminated.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 6 terminated.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 1 requested quit of fiber 7.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 7 terminated.
+   info 2024-08-12 04:19:05.892       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 1 requested quit of fiber 10.
+   info 2024-08-12 04:19:05.893      front   wrk0  16760 4057799                      mac_app.frontend - Service connection lost.
+   info 2024-08-12 04:19:07.232       lsvc   main  16761 4057783   10                      app.service - Fiber exit (ipc).
+   info 2024-08-12 04:19:07.232       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 10 terminated.
+   info 2024-08-12 04:19:07.232       lsvc   main  16761 4057783    1            anynet.connection_mgr - Connection manager shutdown.
+   info 2024-08-12 04:19:07.232       lsvc   main  16761 4057783    1                  fiber.scheduler - Quitting scheduler (0).
+   info 2024-08-12 04:19:07.232       lsvc   main  16761 4057783                       fiber.scheduler - Fiber 1 terminated.
+   info 2024-08-12 04:19:07.232       lsvc   main  16761 4057783                       fiber.scheduler - All fibers terminated.
+   info 2024-08-12 04:19:07.232       lsvc   main  16761 4057783                       fiber.scheduler - Scheduler stopped (0).
+   info 2024-08-12 04:19:07.233       lsvc   main  16761 4057783                      main.run_service - Exiting

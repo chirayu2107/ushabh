@@ -1,0 +1,76 @@
+2023-12-27T11:05:37.818Z [info] [proc] Executing command: cmake --version
+2023-12-27T11:05:37.829Z [warning] [proc] The command: cmake --version failed with error: Error: spawn cmake ENOENT
+2023-12-27T11:05:37.847Z [info] [proc] Executing command: cmake -E capabilities
+2023-12-27T11:05:37.850Z [warning] [proc] The command: cmake -E capabilities failed with error: Error: spawn cmake ENOENT
+2023-12-27T11:05:37.870Z [debug] [main] Safe constructing new CMakeProject instance
+2023-12-27T11:05:37.871Z [debug] [variant] Constructing VariantManager
+2023-12-27T11:05:37.871Z [debug] [main] Constructing new CMakeProject instance
+2023-12-27T11:05:37.872Z [debug] [main] Starting CMake Tools second-phase init
+2023-12-27T11:05:38.105Z [info] [variant] Loaded new set of variants
+2023-12-27T11:05:38.158Z [debug] [kit] Reading kits file /Users/chirayumaru/.local/share/CMakeTools/cmake-tools-kits.json
+2023-12-27T11:05:38.206Z [info] [kit] Successfully loaded 1 kits from /Users/chirayumaru/.local/share/CMakeTools/cmake-tools-kits.json
+2023-12-27T11:05:38.219Z [debug] [kit] Not reading non-existent kits file: /Users/chirayumaru/Downloads/salesp07.github.io-master/.vscode/cmake-kits.json
+2023-12-27T11:05:38.227Z [debug] [main] CMakeProject instance initialization complete.
+2023-12-27T11:05:39.251Z [debug] [main] Not starting CMake driver: no kit selected
+2023-12-27T11:07:17.083Z [debug] [extension] Deactivate CMakeTools
+meworks/Python.framework/Versions/3.9/bin
+2023-06-06T16:06:11.636Z [debug] [kit] Scanning directory /Library/Frameworks/Python.framework/Versions/3.8/bin for compilers
+2023-06-06T16:06:11.636Z [debug] [kit] Scanning directory /usr/local/bin for compilers
+2023-06-06T16:06:11.636Z [debug] [kit] Scanning directory /System/Cryptexes/App/usr/bin for compilers
+2023-06-06T16:06:11.636Z [debug] [kit] Scanning directory /usr/bin for compilers
+2023-06-06T16:06:11.637Z [debug] [kit] Scanning directory /bin for compilers
+2023-06-06T16:06:11.638Z [debug] [kit] Scanning directory /usr/sbin for compilers
+2023-06-06T16:06:11.639Z [debug] [kit] Scanning directory /sbin for compilers
+2023-06-06T16:06:11.639Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2023-06-06T16:06:11.642Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2023-06-06T16:06:11.646Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2023-06-06T16:06:11.646Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2023-06-06T16:06:11.646Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2023-06-06T16:06:11.647Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2023-06-06T16:06:11.647Z [debug] [kit] Scanning directory /Users/chirayumaru/.zsh/misc for compilers
+2023-06-06T16:06:11.647Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2023-06-06T16:06:11.647Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2023-06-06T16:06:11.647Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2023-06-06T16:06:11.647Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2023-06-06T16:06:11.648Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2023-06-06T16:06:11.648Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2023-06-06T16:06:11.648Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2023-06-06T16:06:11.648Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2023-06-06T16:06:11.648Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2023-06-06T16:06:11.649Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2023-06-06T16:06:11.649Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2023-06-06T16:06:11.650Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2023-06-06T16:06:11.650Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2023-06-06T16:06:11.650Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2023-06-06T16:06:11.665Z [debug] [kit] Found 0 kits in directory /Library/Frameworks/Python.framework/Versions/3.10/bin
+2023-06-06T16:06:11.667Z [debug] [kit] Found 0 kits in directory /Library/Frameworks/Python.framework/Versions/3.8/bin
+2023-06-06T16:06:11.672Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2023-06-06T16:06:11.673Z [debug] [kit] Found 0 kits in directory /System/Cryptexes/App/usr/bin
+2023-06-06T16:06:11.677Z [debug] [kit] Found 0 kits in directory /bin
+2023-06-06T16:06:11.683Z [debug] [kit] Found 0 kits in directory /sbin
+2023-06-06T16:06:11.683Z [debug] [kit] Found 0 kits in directory /Users/chirayumaru/.zsh/misc
+2023-06-06T16:06:11.753Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2023-06-06T16:06:11.764Z [debug] [kit] Testing Clang binary: /usr/bin/clang
+2023-06-06T16:06:11.766Z [info] [proc] Executing command: /usr/bin/clang -v
+2023-06-06T16:06:11.799Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2023-06-06T16:06:11.801Z [info] [proc] Executing command: /usr/bin/gcc -v
+2023-06-06T16:06:11.820Z [debug] [kit] Testing GCC binary: /usr/bin/llvm-gcc
+2023-06-06T16:06:11.821Z [info] [proc] Executing command: /usr/bin/llvm-gcc -v
+2023-06-06T16:06:11.910Z [debug] [kit] Bad GCC binary. "/usr/bin/llvm-gcc -v" reports version:  output: Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: x86_64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+2023-06-06T16:06:11.911Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2023-06-06T16:06:11.912Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2023-06-06T16:06:11.954Z [debug] [kit] Bad GCC binary. "/usr/bin/gcc -v" reports version:  output: Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: x86_64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+2023-06-06T16:06:11.955Z [debug] [kit] Found 1 kits in directory /usr/bin
+2023-06-06T16:06:11.955Z [info] [kit] Found Kit (trusted): Clang 14.0.3 x86_64-apple-darwin22.4.0
+2023-06-06T16:06:11.957Z [debug] [kitsController] Saving kits to /Users/chirayumaru/.local/share/CMakeTools/cmake-tools-kits.json
+2023-06-06T16:06:11.957Z [debug] [kitsController] Saving new kits to /Users/chirayumaru/.local/share/CMakeTools/cmake-tools-kits.json
+2023-06-06T16:20:12.155Z [debug] [main] Not starting CMake driver: no kit selected
+2023-06-06T16:22:10.744Z [debug] [extension] Deactivate CMakeTools
