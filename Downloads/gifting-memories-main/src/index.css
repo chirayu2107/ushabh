@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gifting Memories Design System - Elegant & Professional
+All colors MUST be HSL for consistency and theming support.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* Core Brand Colors - Based on Logo */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    
+    /* Brand Identity - Logo Colors */
+    --primary: 351 83% 61%; /* Coral Pink from logo */
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 351 83% 85%; /* Soft coral */
+    
+    --secondary: 210 11% 71%; /* Gray from logo */
+    --secondary-foreground: 0 0% 100%;
+    --secondary-soft: 210 11% 92%; /* Soft gray */
+    
+    /* Accent Colors */
+    --accent: 351 83% 61%;
+    --accent-foreground: 222 47% 11%;
+    --accent-soft: 351 83% 95%;
+    
+    /* Neutral Palette */
+    --muted: 210 20% 98%;
+    --muted-foreground: 215 25% 27%;
+    --muted-darker: 215 15% 85%;
+    
+    /* Surface Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --card-hover: 351 83% 98%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    
+    /* Interactive Elements */
+    --border: 214 20% 92%;
+    --input: 214 20% 92%;
+    --ring: 351 83% 61%;
+    
+    /* Status Colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Design System */
+    --radius: 0.75rem;
+    --shadow-soft: 0 2px 8px -2px hsl(222 47% 11% / 0.1);
+    --shadow-medium: 0 4px 16px -4px hsl(222 47% 11% / 0.15);
+    --shadow-large: 0 8px 32px -8px hsl(222 47% 11% / 0.2);
+    --shadow-glow: 0 0 0 1px hsl(351 83% 61% / 0.1), 0 2px 8px hsl(351 83% 61% / 0.15);
+    
+    /* Gradients - Updated for coral theme */
+    --gradient-primary: linear-gradient(135deg, hsl(351 83% 61%), hsl(351 83% 71%));
+    --gradient-hero: linear-gradient(135deg, hsl(351 83% 95%), hsl(210 11% 97%));
+    --gradient-accent: linear-gradient(135deg, hsl(351 83% 61% / 0.1), hsl(210 11% 71% / 0.05));
+    --gradient-elegant: linear-gradient(180deg, hsl(0 0% 100%), hsl(351 83% 98%));
+    
+    /* Typography Scale */
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-elegant: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Dark mode adjustments */
+  .dark {
+    --background: 222 47% 4%;
+    --foreground: 210 40% 98%;
+    
+    --card: 222 47% 6%;
+    --card-foreground: 210 40% 98%;
+    --card-hover: 222 47% 8%;
+    
+    --popover: 222 47% 6%;
+    --popover-foreground: 210 40% 98%;
+    
+    --primary: 43 96% 56%;
+    --primary-foreground: 222 47% 11%;
+    
+    --secondary: 210 40% 98%;
+    --secondary-foreground: 222 47% 11%;
+    
+    --muted: 222 47% 8%;
+    --muted-foreground: 215 20% 65%;
+    --muted-darker: 222 47% 12%;
+    
+    --accent: 351 83% 61%;
+    --accent-foreground: 222 47% 11%;
+    
+    --border: 222 47% 12%;
+    --input: 222 47% 12%;
+    --ring: 351 83% 61%;
+    
+    --shadow-soft: 0 2px 8px -2px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 4px 16px -4px hsl(0 0% 0% / 0.4);
+    --shadow-large: 0 8px 32px -8px hsl(0 0% 0% / 0.5);
+    
+    --gradient-hero: linear-gradient(135deg, hsl(222 47% 6%), hsl(222 47% 8%));
+    --gradient-elegant: linear-gradient(180deg, hsl(222 47% 4%), hsl(222 47% 6%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-medium tracking-tight;
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  /* Enhanced Button Variants */
+  .btn-hero {
+    @apply bg-gradient-to-r from-primary to-primary-soft text-primary-foreground px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-glow transform hover:scale-105 transition-all duration-300;
+  }
+  
+  .btn-elegant {
+    @apply bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-medium border border-secondary/20 hover:bg-secondary/90 transition-all duration-300;
+  }
+  
+  .btn-ghost-elegant {
+    @apply text-secondary border border-secondary/20 px-6 py-3 rounded-lg font-medium hover:bg-secondary hover:text-secondary-foreground transition-all duration-300;
+  }
+  
+  /* Card Variants */
+  .card-elegant {
+    @apply bg-card border border-border/50 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 hover:border-border;
+  }
+  
+  .card-feature {
+    @apply bg-gradient-to-br from-card to-accent-soft border border-border/30 rounded-2xl p-8 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-500;
+  }
+  
+  .card-testimonial {
+    @apply bg-card border border-border/30 rounded-xl p-6 shadow-soft hover:shadow-medium transition-all duration-300;
+  }
+  
+  /* Text Styles */
+  .text-hero {
+    @apply font-display text-5xl md:text-6xl lg:text-7xl font-bold text-balance leading-tight;
+  }
+  
+  .text-hero-sub {
+    @apply text-xl md:text-2xl text-muted-foreground font-light leading-relaxed;
+  }
+  
+  .text-section-title {
+    @apply font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-balance;
+  }
+  
+  .text-section-subtitle {
+    @apply text-lg md:text-xl text-muted-foreground leading-relaxed;
+  }
+  
+  /* Gradient Text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  
+  /* Animation Utilities */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  .hover-lift {
+    @apply transform transition-all duration-300 hover:-translate-y-2 hover:shadow-large;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .glassmorphism {
+    @apply backdrop-blur-lg bg-card/80 border border-border/20;
+  }
+}
+
+/* Custom Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 20px hsl(351 83% 61% / 0.1); }
+  100% { box-shadow: 0 0 30px hsl(351 83% 61% / 0.3); }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground/50;
+}
